@@ -1,0 +1,41 @@
+{
+  "name": "kitten-tts",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for KittenTTS - High quality text-to-speech synthesis",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "install": "node install-python-deps.js",
+    "test": "node test.js",
+    "example": "node example.js",
+    "postinstall": "node install-python-deps.js"
+  },
+  "keywords": [
+    "tts",
+    "text-to-speech",
+    "kitten",
+    "ai",
+    "speech-synthesis",
+    "audio"
+  ],
+  "author": "KittenTTS Node Wrapper",
+  "license": "MIT",
+  "dependencies": {
+    "node-gyp": "^10.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/kitten-tts-node"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "install-python-deps.js",
+    "python-bridge.py",
+    "README.md",
+    "example.js"
+  ]
+}
